@@ -20,4 +20,3 @@ const addScore = async (name, score) => {
 
 export default addScore;
 
-// i56nonxat3GFCLYuw31T
