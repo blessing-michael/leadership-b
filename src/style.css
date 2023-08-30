@@ -1,0 +1,79 @@
+
+* {
+  margin: 0;
+}
+
+.title {
+  margin-left: 4rem;
+  margin-top: 2rem;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  height: 100vh;
+ justify-self: center;
+ margin-left: 10rem;
+
+}
+
+.score-container {
+  margin: 0 5rem;
+}
+
+.score-title {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.list-item {
+  border: 2px solid black;
+  padding: 0;
+}
+
+.addscore-container {
+  width: 300px;
+  height: 250px;
+}
+
+.addscore-container h2 {
+  margin-bottom: 2rem;
+}
+
+.refresh {
+  margin-left: 1rem;
+  box-shadow: 2px 2px 0 0 black;
+  padding-left: 4%;
+  padding-right: 4%;
+  border: 2px solid black;
+}
+
+.info {
+  margin: 15px;
+  border: 2px solid black;
+}
+
+.submit {
+  box-shadow: 2px 2px 0 0 black;
+  border: 2px solid black;
+}
+
+.submit-button {
+  margin-left: 9rem;
+}
+
+li {
+  list-style: none;
+  text-decoration: none;
+  padding: 0.2rem;
+  
+}
+li:nth-child(even) {
+  background-color: #f0f0f0;
+}
+.list-item li {
+  padding-left: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
