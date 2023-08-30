@@ -19,4 +19,3 @@ const addScore = async (name, score) => {
 };
 
 export default addScore;
-
