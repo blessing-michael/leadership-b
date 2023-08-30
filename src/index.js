@@ -3,7 +3,7 @@ import addScore from './addScore';
 import refresh from './showUI';
 
 const submitButton = document.querySelector('.submit');
-console.log(submitButton)
+console.log(submitButton);
 submitButton.addEventListener('click', async () => {
   const nameInput = document.getElementById('name');
   const scoreInput = document.getElementById('score');

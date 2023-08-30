@@ -13,9 +13,8 @@
   grid-template-columns: 1fr 1fr;
   align-items: center;
   height: 100vh;
- justify-self: center;
- margin-left: 10rem;
-
+  justify-self: center;
+  margin-left: 10rem;
 }
 
 .score-container {
@@ -67,11 +66,12 @@ li {
   list-style: none;
   text-decoration: none;
   padding: 0.2rem;
-  
 }
+
 li:nth-child(even) {
   background-color: #f0f0f0;
 }
+
 .list-item li {
   padding-left: 10px;
   padding-bottom: 5px;
