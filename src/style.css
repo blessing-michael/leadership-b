@@ -3,6 +3,11 @@
   margin: 0;
 }
 
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgb(156, 152, 227) 0%, rgb(64, 64, 201) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
 .title {
   margin-left: 4rem;
   margin-top: 2rem;
@@ -34,6 +39,7 @@
 .addscore-container {
   width: 300px;
   height: 250px;
+  margin-top: -21rem;
 }
 
 .addscore-container h2 {
